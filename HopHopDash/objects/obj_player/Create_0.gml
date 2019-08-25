@@ -6,4 +6,4 @@ walkspd = 4;
 jumpValue = 6;
 nrofjumps = 2;
 grv=0.25;
-vulnerable = true;
+movingRight = true;

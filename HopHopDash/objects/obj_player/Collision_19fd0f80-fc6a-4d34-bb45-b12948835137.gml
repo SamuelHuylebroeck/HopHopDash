@@ -3,8 +3,6 @@
 audio_play_sound(snd_score,1,false);
 with(other){
 	instance_destroy();
-		repeat(10){
-		instance_create_layer(x,y,"Instances",obj_score_particle)
-	}
+	particle_explosion(obj_score_particle,10)
 }
 score+=10;

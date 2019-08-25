@@ -1,8 +1,8 @@
 {
-    "id": "410da599-dc75-4ce6-b490-d2f40441c475",
+    "id": "69613a3b-30d0-4b59-9bc7-92adaaa7a61f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_checkpoint",
+    "name": "invisibleDeathWall",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "6e623c5a-246d-4b38-8e60-16941b5d0e97",
+    "spriteId": "6e1da407-6484-47ca-bae2-7a3faf2736b6",
     "visible": true
 }

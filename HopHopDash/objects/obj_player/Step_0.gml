@@ -18,6 +18,9 @@ if((nrofjumps <= 0) && on_ground){
 	nrofjumps = 2;	
 }
 if(nrofjumps > 0 && (key_jump)){
+	if(nrofjumps == 1){
+		particle_explosion(obj_score_particle,5);
+	}
 	nrofjumps--;
 	vsp -= jumpValue;
 }
@@ -47,8 +50,12 @@ if(!on_ground){
 }else{
 	sprite_index = spr_player_rest;
 }
- /*
-if(sign(hsp) != 0){
-	image_xscale *= sign(hsp);
+//Flip sprite direction when starting to move in a different direction
+if(sign(hsp) < 0 && movingRight ){
+	image_xscale *= -1;
+	movingRight = false;
 }
-*/
+if(sign(hsp) >0 && !movingRight){
+	image_xscale *= -1;
+	movingRight = true;
+}
