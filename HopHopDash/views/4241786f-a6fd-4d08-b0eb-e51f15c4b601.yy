@@ -10,7 +10,7 @@
         "69613a3b-30d0-4b59-9bc7-92adaaa7a61f"
     ],
     "filterType": "GMObject",
-    "folderName": "Terrain",
+    "folderName": "terrain",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

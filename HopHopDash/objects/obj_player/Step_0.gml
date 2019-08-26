@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Movement and animation
 // You can write your code in this editor
 
 //Get player input
@@ -19,7 +19,7 @@ if((nrofjumps <= 0) && on_ground){
 }
 if(nrofjumps > 0 && (key_jump)){
 	if(nrofjumps == 1){
-		particle_explosion(obj_score_particle,5);
+		particle_explosion(obj_jump_particle,5);
 	}
 	nrofjumps--;
 	vsp -= jumpValue;
