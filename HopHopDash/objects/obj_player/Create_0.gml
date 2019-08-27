@@ -8,3 +8,5 @@ nrofjumps = 2;
 grv=0.25;
 movingRight = true;
 end_reached = false;
+jump_on_cd=false;
+jump_cd = room_speed/10;

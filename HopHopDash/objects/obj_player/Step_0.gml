@@ -15,9 +15,13 @@ vsp = vsp+grv
 var on_ground = place_meeting(x,y+1,obj_wall)
 
 if((nrofjumps <= 0) && on_ground){
-	nrofjumps = 2;	
+	nrofjumps = 2;
 }
-if(nrofjumps > 0 && (key_jump)){
+
+
+if(!jump_on_cd && nrofjumps > 0 && (key_jump)){
+	alarm[0] = jump_cd;
+	jump_on_cd = true;
 	if(nrofjumps == 1){
 		particle_explosion(obj_jump_particle,5);
 	}

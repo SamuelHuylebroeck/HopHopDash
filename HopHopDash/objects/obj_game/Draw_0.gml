@@ -13,7 +13,7 @@ switch(room){
         
         LEFT/RIGHT: move left or right
         SPACE: jump and double jump
-		R: Reset level
+        R: Reset level
         
         >>PRESS ENTER TO START<<");
 		draw_set_halign(fa_left);

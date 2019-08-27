@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "13cec485-87db-4805-bc98-d1064abbdfd4",
+            "Value": {
+                "id": "98a58fda-68ea-4fea-a091-2f9326680dfc",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b6ee571-9163-4e35-b009-27a7561d9ce1",
             "Value": {
                 "id": "28ecfd3f-3400-4540-9123-b035e018a89a",
@@ -100,6 +108,14 @@
                 "id": "8095af1c-76c4-437a-8ff9-988dc15a6624",
                 "resourcePath": "views\\23d1b64d-252b-430a-ae31-347d37bf3fa2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "26544684-7fed-4cb7-8b10-e5f6c8e32984",
+            "Value": {
+                "id": "185d1403-d3f9-4e4b-ab11-190acf5bcf93",
+                "resourcePath": "scripts\\execute_movement\\execute_movement.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -359,6 +375,14 @@
             }
         },
         {
+            "Key": "acd2d8e8-41cc-4a44-84bc-301bcc2cc898",
+            "Value": {
+                "id": "b9c6511a-0efb-46e3-88bf-55087c12dd72",
+                "resourcePath": "sprites\\spr_boundary\\spr_boundary.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ae5c0e1c-54ad-4c0b-8132-21764b816998",
             "Value": {
                 "id": "436909ce-b72f-4a41-90d3-bbfedbd58292",
@@ -535,10 +559,26 @@
             }
         },
         {
+            "Key": "f6c4f7e2-b14f-4319-9e0b-f7d3fdd98bd3",
+            "Value": {
+                "id": "38b0cc3d-d66b-44e4-96de-6c04e4aa78c4",
+                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f8661b2b-7c29-4187-ae8d-ec0f39f590ad",
             "Value": {
                 "id": "00073c22-3712-4f32-bae8-68101b557f99",
                 "resourcePath": "objects\\obj_jump_particle\\obj_jump_particle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f93c1ac1-03f2-4b4e-8e22-73e09ec06b7c",
+            "Value": {
+                "id": "28d0df60-f9f2-44e7-9dd9-e327102559f6",
+                "resourcePath": "objects\\obj_enemy_boundary\\obj_enemy_boundary.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -561,7 +601,8 @@
     ],
     "script_order": [
         "1b886944-f907-44b2-812a-29aab043f6fd",
-        "3908a2eb-6cc5-4e0d-87bd-cbc2cd8d0217"
+        "3908a2eb-6cc5-4e0d-87bd-cbc2cd8d0217",
+        "26544684-7fed-4cb7-8b10-e5f6c8e32984"
     ],
     "tutorial": ""
 }

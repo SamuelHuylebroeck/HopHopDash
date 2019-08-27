@@ -6,5 +6,6 @@ if(active_checkpoint == 0){
 	with(active_checkpoint){
 		particle_explosion(obj_score_particle,20);
 	}
-	instance_create_layer(active_checkpoint.x,active_checkpoint.y,"Instances",obj_player)
+	var position_correction = 5;
+	instance_create_layer(active_checkpoint.x,active_checkpoint.y-position_correction,"Instances",obj_player)
 }
