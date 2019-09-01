@@ -2,8 +2,11 @@
 // You can write your code in this editor
 switch(room){
 	case rm_game:
-		draw_text(20,20, "LIVES:    " + string(lives));
-		draw_text(20,40, "SCORE:    " + string(score));
+	case rm_tower:
+		var current_view_x = camera_get_view_x(camera_get_active());
+		var current_view_y = camera_get_view_y(camera_get_active());
+		draw_text(current_view_x + 20, current_view_y + 20, "LIVES:    " + string(lives));
+		draw_text(current_view_x+ 20, current_view_y + 40, "SCORE:    " + string(score));
 		break;
 	case rm_start:
 	draw_set_halign(fa_center);

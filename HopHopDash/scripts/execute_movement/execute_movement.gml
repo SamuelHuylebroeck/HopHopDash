@@ -1,4 +1,7 @@
-//execute_movement(hsp,vsp)
+////@function execute_movement(hsp,vsp)
+////@description executes movement for the entity that calls this script
+////@param {real} hsp horizontal speed in pixels
+////@param {real} vsp vertical speed in pixels
 var hsp = argument0;
 var vsp = argument1;
 
@@ -17,6 +20,7 @@ if(!place_empty(x,y+vsp,obj_wall)){
 	}
 	vsp=0;
 }
+
 //Execute movement
 x+=hsp;
 y+=vsp;

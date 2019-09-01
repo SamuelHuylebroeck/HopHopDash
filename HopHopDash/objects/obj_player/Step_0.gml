@@ -29,6 +29,7 @@ if(!jump_on_cd && nrofjumps > 0 && (key_jump)){
 	vsp -= jumpValue;
 }
 
+//execute_movement(hsp,vsp)
 //Horizontal Collision
 if(!place_empty(x+hsp,y,obj_wall)){
 	while(!place_meeting(x+sign(hsp),y,obj_wall)){
@@ -44,6 +45,7 @@ if(!place_empty(x,y+vsp,obj_wall)){
 	}
 	vsp=0;
 }
+
 //Execute movement
 x+=hsp;
 y+=vsp;

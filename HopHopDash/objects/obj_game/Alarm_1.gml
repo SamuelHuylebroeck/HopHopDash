@@ -1,6 +1,7 @@
 /// @description Respawn Code
 // You can write your code in this editor
 if(active_checkpoint == 0){
+	show_debug_message("No Checkpoint is active, using workaround respawn code");
 	room_restart();
 }else{
 	with(active_checkpoint){
