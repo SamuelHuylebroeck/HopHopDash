@@ -14,9 +14,10 @@ switch(room){
 		draw_text_transformed_color(room_width / 2, 100, "HOP HOP DASH", 3,3,0,c,c,c,c,1);
 		draw_text(room_width /2, 200, @"Make it to the end of each level to win!
         
-        LEFT/RIGHT: move left or right
-        SPACE: jump and double jump
-        R: Reset level
+        >>LEFT/RIGHT: move left or right
+        >>SPACE: jump and double jump
+        >>LEFT CONTROL: horizontal dash in direction of current movement
+        >>R: Reset level
         
         >>PRESS ENTER TO START<<");
 		draw_set_halign(fa_left);

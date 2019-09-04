@@ -8,13 +8,11 @@ License: CC BY (http://creativecommons.org/licenses/by/4.0/)
 
 
 ## Known Issues
-enemies contacting walls have their horizontal speed nullified  
+enemies contacting walls have their horizontal speed nullified
+After dash, when touching the ground, horizontal speed is locked to 0
 
 ##  Focus
 Levels - Tower and Long Run  
-Initial Dash implementation  
 
 ## Planned
-Dash  
-Enemies  
 Movement Tightening  

@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "19b87153-070a-4b05-b260-f56daa3dbd2e",
+            "Value": {
+                "id": "f4937b04-b36a-4826-b8dc-159b7267047c",
+                "resourcePath": "sprites\\spr_player_dashing\\spr_player_dashing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1b6ee571-9163-4e35-b009-27a7561d9ce1",
             "Value": {
                 "id": "28ecfd3f-3400-4540-9123-b035e018a89a",
