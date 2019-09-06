@@ -4,10 +4,13 @@
 //Get player input
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_space);
+key_jump_press = keyboard_check_pressed(vk_space);
+key_jump_release = keyboard_check_released(vk_space);
 key_dash = keyboard_check_pressed(vk_lcontrol);
 
 if(dash_steps_remaining == 0 && key_dash){
+	var sound_play = choose(snd_boost_fart,snd_boost_zoom);
+	audio_play_sound(sound_play,1,false);
 	dash_steps_remaining = dash_steps;
 	dash_direction = moving_right ? 1:-1;
 }
@@ -32,14 +35,17 @@ if((nrofjumps <= 0) && on_ground){
 }
 
 
-if(!jump_on_cd && !is_dashing && nrofjumps > 0 && (key_jump)){
-	alarm[0] = jump_cd;
+if(!jump_on_cd && !is_dashing && nrofjumps > 0 && (key_jump_press)){
+	audio_play_sound(snd_jump,1,false);
 	jump_on_cd = true;
 	if(nrofjumps == 1){
 		particle_explosion(obj_jump_particle,5);
 	}
 	nrofjumps--;
 	vsp -= jumpValue;
+}
+if(jump_on_cd && key_jump_release){
+	jump_on_cd = false;
 }
 
 //execute_movement(hsp,vsp)

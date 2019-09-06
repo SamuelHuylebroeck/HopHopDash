@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "131e0239-1141-401f-9251-b0060ce41bc4",
+            "Value": {
+                "id": "a78f3403-378f-40b1-8138-0651e52c8d88",
+                "resourcePath": "sounds\\snd_boost_zoom\\snd_boost_zoom.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "13cec485-87db-4805-bc98-d1064abbdfd4",
             "Value": {
                 "id": "98a58fda-68ea-4fea-a091-2f9326680dfc",
@@ -106,7 +114,7 @@
             "Key": "21738bf7-0a94-4bd9-8a45-7a2e71b7fcc9",
             "Value": {
                 "id": "73d487b3-8a7b-49c1-a6f7-b5478fe472bb",
-                "resourcePath": "rooms\\rm_game\\rm_game.yy",
+                "resourcePath": "rooms\\rm_layers\\rm_layers.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "6abb9d27-3ee2-4cf5-8898-b97dc742458c",
+            "Value": {
+                "id": "497986b9-5f60-4440-af79-81ff9baccf07",
+                "resourcePath": "sounds\\snd_boost_fart\\snd_boost_fart.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6ae464b1-6942-4d61-841c-3089d6b65266",
             "Value": {
                 "id": "e08c2095-111f-492a-beaa-d97d9077441c",
@@ -308,6 +324,14 @@
                 "id": "c7230131-617e-4552-8e57-6618b8770142",
                 "resourcePath": "views\\6f25abe1-bffe-40e3-8cba-7185b7aba2c3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "71a65339-9717-4587-8349-7af87ed637c9",
+            "Value": {
+                "id": "80371ce0-b32b-4a74-82aa-f32579fd5bce",
+                "resourcePath": "sounds\\snd_jump\\snd_jump.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -532,6 +556,14 @@
                 "id": "28da65fb-5d0d-4940-bd97-fb6587fa9895",
                 "resourcePath": "sounds\\snd_score\\snd_score.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "dde39fb0-7891-4c2c-bc2e-7aa4d4c12381",
+            "Value": {
+                "id": "f05b850b-6175-4953-8bc2-064230605415",
+                "resourcePath": "rooms\\rm_slide\\rm_slide.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

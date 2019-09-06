@@ -12,4 +12,3 @@ grv=0.25;
 moving_right = true;
 end_reached = false;
 jump_on_cd=false;
-jump_cd = room_speed/10;

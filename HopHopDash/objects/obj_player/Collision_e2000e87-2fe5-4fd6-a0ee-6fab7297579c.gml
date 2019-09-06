@@ -4,11 +4,14 @@ with(obj_game){
 	audio_play_sound(snd_stage_pass,1,false);
 	active_checkpoint = 0;
 	switch(room){
-		case rm_game:
+		case rm_layers:
 			room_goto(rm_tower);
 			break;
 		case rm_tower:
-			room_goto(rm_win)
+			room_goto(rm_slide)
+			break;
+		case rm_slide:
+			room_goto(rm_win);
 			break;
 	}
 }
